@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.EspMainActivity">
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/testForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="testBtn1,testBtn2,testBtn3,testBtn4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/testBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@android:string/ok"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/testBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@android:string/ok"
+        app:layout_constraintStart_toEndOf="@id/testBtn1"
+        app:layout_constraintTop_toTopOf="@id/testBtn1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/testBtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@android:string/ok"
+        app:layout_constraintStart_toEndOf="@id/testBtn2"
+        app:layout_constraintTop_toTopOf="@id/testBtn2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/testBtn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@android:string/ok"
+        app:layout_constraintStart_toEndOf="@id/testBtn3"
+        app:layout_constraintTop_toTopOf="@id/testBtn3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

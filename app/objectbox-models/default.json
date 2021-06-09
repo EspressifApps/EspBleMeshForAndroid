@@ -1,0 +1,76 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "6:6439370777078701006",
+      "lastPropertyId": "3:666564755472750633",
+      "name": "JSBox",
+      "properties": [
+        {
+          "id": "1:9030755243423337385",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4351473485455389821",
+          "name": "key",
+          "indexId": "3:4431589192333799151",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:666564755472750633",
+          "name": "value",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "6:6439370777078701006",
+  "lastIndexId": "3:4431589192333799151",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [
+    146832319094488111,
+    2686442953546541579,
+    3144459914879297623,
+    9154205170644561241,
+    6918886236052675989
+  ],
+  "retiredIndexUids": [
+    5151424056440876514,
+    2979646779253901010
+  ],
+  "retiredPropertyUids": [
+    7369955968760023155,
+    5322817572869579189,
+    8460351842604867334,
+    6292942644676618111,
+    4924342779825595559,
+    4077675609423808350,
+    2680742180764115244,
+    3569416717949238502,
+    6691748391147093371,
+    6140797914440609550,
+    3204267990095789792,
+    7952658799418485787,
+    8673525568428408202,
+    7000606498573675749,
+    7299858711199152087,
+    5249004087024407295,
+    7568299591643327068,
+    4135166351244114401,
+    6621509075536146222,
+    6328402808431253644,
+    3288792240023062255,
+    6864981654659349459
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

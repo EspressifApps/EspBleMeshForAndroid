@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EspBLEMesh</string>
+
+    <string name="main_title">网络</string>
+
+    <string name="provisioning_get_node_failed">获取节点失败</string>
+    <string name="provisioning_get_capabilities_failed">获取节点配置信息失败</string>
+    <string name="provisioning_get_networkd_failed">获取网络失败</string>
+    <string name="provisioning_got_node">成功获取节点</string>
+    <string name="provisioning_complete">添加节点已完成</string>
+
+    <string name="light_hsl_hue">色相</string>
+    <string name="light_hsl_saturation">饱和度</string>
+    <string name="light_hsl_lightness">亮度</string>
+</resources>

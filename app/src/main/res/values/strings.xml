@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EspBLEMesh</string>
+
+    <string name="main_title">Network</string>
+
+    <string name="provisioning_get_node_failed">Get unprovisioned mesh node failed.</string>
+    <string name="provisioning_get_capabilities_failed">Get capabilities failed.</string>
+    <string name="provisioning_get_networkd_failed">Get network failed.</string>
+    <string name="provisioning_got_node">Got unprovisioned mesh node.</string>
+    <string name="provisioning_complete">Mesh node has been successfully configured.</string>
+
+    <string name="light_hsl_hue">Hue</string>
+    <string name="light_hsl_saturation">Saturation</string>
+    <string name="light_hsl_lightness">Lightness</string>
+</resources>

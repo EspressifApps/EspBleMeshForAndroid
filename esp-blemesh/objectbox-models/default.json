@@ -1,0 +1,142 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:5713501628829414126",
+      "lastPropertyId": "5:1786003855289984390",
+      "name": "EspMeshNode",
+      "properties": [
+        {
+          "id": "1:8443597012648040353",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:9028137097889118880",
+          "name": "address",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "3:3368856107720380019",
+          "name": "elementCount",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "4:8630782057601566713",
+          "name": "bleId",
+          "type": 9
+        },
+        {
+          "id": "5:1786003855289984390",
+          "name": "meshUUID",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:5117025000482650635",
+      "lastPropertyId": "4:3718286552088408031",
+      "name": "EspMeshGroup",
+      "properties": [
+        {
+          "id": "1:7340217328426946069",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:792192899865084042",
+          "name": "address",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "3:8186964384563181697",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "4:3718286552088408031",
+          "name": "meshUUID",
+          "indexId": "1:2302763155990986380",
+          "type": 9,
+          "flags": 2048
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:5717356042872103272",
+      "lastPropertyId": "4:5811436298622612655",
+      "name": "EspFastNode",
+      "properties": [
+        {
+          "id": "1:6982635672491525698",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1863440311173217611",
+          "name": "meshUUID",
+          "type": 9
+        },
+        {
+          "id": "3:8500194218222741435",
+          "name": "address",
+          "type": 6,
+          "flags": 4
+        },
+        {
+          "id": "4:5811436298622612655",
+          "name": "bleId",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:2771401332315829502",
+      "lastPropertyId": "3:6523717092675788774",
+      "name": "JSBox",
+      "properties": [
+        {
+          "id": "1:4754260284211544803",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4690195894120220228",
+          "name": "key",
+          "indexId": "2:7219923354718091783",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:6523717092675788774",
+          "name": "value",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "4:2771401332315829502",
+  "lastIndexId": "2:7219923354718091783",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

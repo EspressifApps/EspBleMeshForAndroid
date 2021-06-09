@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.objectbox'
+
+android {
+    compileSdkVersion 30
+
+    defaultConfig {
+        applicationId "com.espressif.espblemesh"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 14
+        versionName "v2.0.3-dev"
+        multiDexEnabled true
+        sourceSets {
+            main {
+                assets.srcDirs = ['src/main/assets', '../web/dist']
+            }
+        }
+    }
+    signingConfigs {
+        config {
+            keyAlias 'Mesh'
+            keyPassword 'EspBleMesh'
+            storeFile file('sign/espblemesh')
+            storePassword 'EspBleMesh'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            signingConfig signingConfigs.config
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+
+    implementation 'io.reactivex.rxjava3:rxjava:3.0.11'
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
+
+    implementation project(':esp-blemesh')
+    implementation project(':mesh')
+}
